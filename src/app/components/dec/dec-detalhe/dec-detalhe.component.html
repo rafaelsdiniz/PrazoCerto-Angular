@@ -38,7 +38,7 @@
         <dt>Empresa</dt>
         <dd>
           {{ c.nomeEmpresa || c.razaoSocial || '—' }}
-          @if (c.idEmpresa == null) { <span class="tag tag-novo">não cadastrada no Gerenciador</span> }
+          @if (c.idEmpresa == null) { <span class="tag tag-novo">não cadastrada no Prazo Certo</span> }
           @if (c.nomeEmpresa && c.razaoSocial && c.razaoSocial !== c.nomeEmpresa) { <span class="cell-sub">{{ c.razaoSocial }}</span> }
         </dd>
       </div>
@@ -135,7 +135,7 @@
   <div class="modal-footer">
     @if (podeCadastrar && c.idEmpresa == null) {
       <button type="button" class="btn btn-ghost" (click)="cadastrar()" title="Abrir o cadastro de empresa com este CNPJ preenchido">
-        <app-icon name="plus" [size]="16" /> Cadastrar no Gerenciador
+        <app-icon name="plus" [size]="16" /> Cadastrar no Prazo Certo
       </button>
     }
     <span class="spacer"></span>

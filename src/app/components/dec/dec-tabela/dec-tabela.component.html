@@ -52,10 +52,10 @@
                   @if (l.c.idEmpresa == null) {
                     <span class="cell-sub emp-sub">
                       <span class="tnum nowrap">{{ l.c.cnpj | documento }}</span>
-                      <span class="tag tag-novo" title="CNPJ ainda não cadastrado no Gerenciador">não cadastrada</span>
+                      <span class="tag tag-novo" title="CNPJ ainda não cadastrado no Prazo Certo">não cadastrada</span>
                       @if (podeCadastrar) {
                         <button type="button" class="link cadastrar" (click)="$event.stopPropagation(); cadastrar(l.c)"
-                                [attr.aria-label]="'Cadastrar ' + l.empresa + ' no Gerenciador'" title="Cadastrar no Gerenciador">
+                                [attr.aria-label]="'Cadastrar ' + l.empresa + ' no Prazo Certo'" title="Cadastrar no Prazo Certo">
                           <app-icon name="plus" [size]="12" /> Cadastrar
                         </button>
                       }

@@ -598,7 +598,7 @@ export class RelatoriosComponent implements OnInit, OnDestroy {
 
   exportarCsv(): void {
     const L: Celula[][] = [];
-    const rodape = [`Gerado em ${this.geradoEm.toLocaleString('pt-BR')} por ${this.usuario} — Gerenciador Diniz`];
+    const rodape = [`Gerado em ${this.geradoEm.toLocaleString('pt-BR')} por ${this.usuario} — Prazo Certo`];
     if (this.mensal) {
       const m = this.mensal;
       L.push(['Relatório mensal da empresa'], ['Empresa', m.empresa.razaoSocial], ['CNPJ', cnpjBr(m.empresa.cnpj)],

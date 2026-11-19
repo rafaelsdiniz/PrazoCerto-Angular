@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "GerenciadorDinizFront": {
+    "PrazoCerto": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -66,10 +66,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "GerenciadorDinizFront:build:production"
+              "buildTarget": "PrazoCerto:build:production"
             },
             "development": {
-              "buildTarget": "GerenciadorDinizFront:build:development"
+              "buildTarget": "PrazoCerto:build:development"
             }
           },
           "defaultConfiguration": "development"

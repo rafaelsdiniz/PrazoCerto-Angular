@@ -59,7 +59,7 @@ export class DecTabelaComponent {
   @Input() selecionadoId: number | null = null;
   /** Habilita ordenação por cabeçalho (null = sem ordenação clicável). */
   @Input() ordem: 'urgencia' | 'data' | null = null;
-  /** ADMIN: atalho "Cadastrar no Gerenciador" para CNPJ sem empresa */
+  /** ADMIN: atalho "Cadastrar no Prazo Certo" para CNPJ sem empresa */
   @Input() podeCadastrar = false;
 
   @Output() abrir = new EventEmitter<ComunicacaoDecDTO>();

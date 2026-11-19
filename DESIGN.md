@@ -1,6 +1,6 @@
 # DESIGN.md — Diniz Contabilidade
 
-Sistema visual do Gerenciador Diniz: **cores da marca Diniz** (azul-marinho + dourado do logo)
+Sistema visual do Prazo Certo: **cores da marca Diniz** (azul-marinho + dourado do logo)
 com o **padrão de layout dos produtos Diniz** — sidebar escura com item ativo em pílula, topbar com
 busca e chips de status, cards de indicador com ação, chips de filtro com contador e tabelas com
 cabeçalho em faixa e paginação. A base técnica (tokens, densidade, pílulas, números tabulares) veio

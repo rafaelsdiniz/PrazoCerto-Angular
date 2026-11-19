@@ -18,7 +18,7 @@ import { decDiasTacita, decParamsCadastro, decRelativo, decTomTacita } from '../
 })
 export class DecDetalheComponent {
   @Input({ required: true }) comunicacao!: ComunicacaoDecDTO;
-  /** ADMIN: mostra "Cadastrar no Gerenciador" quando o CNPJ não tem empresa */
+  /** ADMIN: mostra "Cadastrar no Prazo Certo" quando o CNPJ não tem empresa */
   @Input() podeCadastrar = false;
   @Output() fechar = new EventEmitter<void>();
 
